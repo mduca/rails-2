@@ -48,3 +48,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'pg', group: :production
+
+# Used for running Rails 4.1.0 applications on windows systems
+gem 'tzinfo'
+gem 'tzinfo-data'
